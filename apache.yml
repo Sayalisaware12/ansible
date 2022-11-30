@@ -1,6 +1,0 @@
----
-- hosts: apache
-  become: true
-  become_user: true
-  roles:
-    - role: apache1.yml
