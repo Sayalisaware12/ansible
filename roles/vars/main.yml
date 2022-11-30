@@ -1,0 +1,5 @@
+---
+user_data: www-data
+domain_data: example.com
+domain_conf: example.com.conf
+port: 80
