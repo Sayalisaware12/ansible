@@ -37,8 +37,3 @@
         port: "{{ http_port }}"
         proto: tcp
         
-handlers:
-    - name: reload Apache
-      ansible.builtin.service:
-        name: apache2
-        state: reloaded
